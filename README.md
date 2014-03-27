@@ -3,6 +3,6 @@ CometBoard
 
 save the trees
 
-# License
+### License
 
 ISC
