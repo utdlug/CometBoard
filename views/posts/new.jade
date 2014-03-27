@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  form(role='form', action='/posts/new', method='post')
+    div.form-group
+      label(for='title') Title
+      input.form-control(type='text', id='title')
+    div.form-group
+      label(for='body') Body
+      textarea.form-control(row='3')
+    div.form-group
+      label(for='image') Image
+      input#image(type='file')
+    button(type='submit', class='btn btn-default') Submit
